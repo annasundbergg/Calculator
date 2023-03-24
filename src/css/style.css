@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .img{
+    max-width: 100%;
+  }
+  .container {
+    width: 280px;
+    margin: 50px auto;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .result {
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+  }
+  .btn:hover {
+    background-color: #ccc;
+  }
+  .btn:focus {
+    background-color: #ccc;
+  }
+  .btn.operator {
+    background-color: #e6e6e6;
+  }
+  .btn.operator:hover {
+    background-color: #bfbfbf;
+  }
+  .btn.operator:focus {
+    background-color: #bfbfbf;
+  }
+  .btn.equals {
+    background-color: #00b894;
+    color: #fff;
+  }
+  .btn.equals:hover {
+    background-color: #00a887;
+  }
+  .btn.equals:focus {
+    background-color: #00a887;
+  }
