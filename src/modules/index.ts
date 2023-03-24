@@ -1,7 +1,7 @@
 console.log("hej");
 const img = document.createElement('img');
 document.body.append(img);
-const imgUrl = new URL('./src/calc-img.jpeg', import.meta.url);
+const imgUrl = new URL('../calc-img.jpeg', import.meta.url);
 img.src = imgUrl.href;
 img.classList.add('img');
 
