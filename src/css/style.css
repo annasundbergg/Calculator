@@ -1,21 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
+* {
+    font-family: "Electrolize", sans-serif;
+}
 
-  .img{
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h3{
+  margin-top: 100;
+}
+
+.img {
     max-width: 100%;
-  }
-  .container {
+}
+
+.container {
     width: 280px;
     margin: 50px auto;
+    margin-top: 5;
     background-color: grey;
     border-radius: 5px;
     padding: 20px;
-    padding-right: 0px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  }
-  .result {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.result {
     font-size: 24px;
     text-align: right;
     padding: 10px;
@@ -25,8 +36,9 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
     margin-bottom: 5px;
-  }
-  .btn {
+}
+
+.btn {
     width: 50px;
     height: 50px;
     font-size: 24px;
@@ -37,29 +49,30 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     outline: none;
-  }
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #ccc;
-  }
-  .btn:focus {
+}
+.btn:focus {
     background-color: #ccc;
-  }
-  .btn.operator {
+}
+.btn.operator {
     background-color: #e6e6e6;
-  }
-  .btn.operator:hover {
+}
+.btn.operator:hover {
     background-color: #bfbfbf;
-  }
-  .btn.operator:focus {
-    background-color: #bfbfbf;
-  }
-  .btn.equals {
+}
+.btn.operator:focus {
+    background-color: #bfbfbf4d;
+}
+.btn.equals {
     background-color: #00b894;
     color: #fff;
-  }
-  .btn.equals:hover {
+}
+.btn.equals:hover {
     background-color: #00a887;
-  }
-  .btn.equals:focus {
+}
+.btn.equals:focus {
     background-color: #00a887;
-  }
+}
